@@ -11,6 +11,9 @@
 		4027609E2C11C103007B9CD6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4027609D2C11C103007B9CD6 /* ContentView.swift */; };
 		402760A02C11C105007B9CD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4027609F2C11C105007B9CD6 /* Assets.xcassets */; };
 		402760A32C11C105007B9CD6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 402760A22C11C105007B9CD6 /* Preview Assets.xcassets */; };
+		402760AA2C11C2D7007B9CD6 /* RoomController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402760A92C11C2D7007B9CD6 /* RoomController.swift */; };
+		402760AC2C11C393007B9CD6 /* RoomPlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402760AB2C11C393007B9CD6 /* RoomPlanView.swift */; };
+		402760AE2C11C3B3007B9CD6 /* UnsupportedDeviceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402760AD2C11C3B3007B9CD6 /* UnsupportedDeviceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		4027609D2C11C103007B9CD6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4027609F2C11C105007B9CD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		402760A22C11C105007B9CD6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		402760A92C11C2D7007B9CD6 /* RoomController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomController.swift; sourceTree = "<group>"; };
+		402760AB2C11C393007B9CD6 /* RoomPlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomPlanView.swift; sourceTree = "<group>"; };
+		402760AD2C11C3B3007B9CD6 /* UnsupportedDeviceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsupportedDeviceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				4027609B2C11C103007B9CD6 /* RoomPlanTestApp.swift */,
 				4027609D2C11C103007B9CD6 /* ContentView.swift */,
+				402760A92C11C2D7007B9CD6 /* RoomController.swift */,
+				402760AB2C11C393007B9CD6 /* RoomPlanView.swift */,
+				402760AD2C11C3B3007B9CD6 /* UnsupportedDeviceView.swift */,
 				4027609F2C11C105007B9CD6 /* Assets.xcassets */,
 				402760A12C11C105007B9CD6 /* Preview Content */,
 			);
@@ -137,7 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				402760AC2C11C393007B9CD6 /* RoomPlanView.swift in Sources */,
+				402760AE2C11C3B3007B9CD6 /* UnsupportedDeviceView.swift in Sources */,
 				4027609E2C11C103007B9CD6 /* ContentView.swift in Sources */,
+				402760AA2C11C2D7007B9CD6 /* RoomController.swift in Sources */,
 				4027609C2C11C103007B9CD6 /* RoomPlanTestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +287,7 @@
 				DEVELOPMENT_TEAM = BU56QU36XP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "$(PRODUCT_NAME) uses camera";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +317,7 @@
 				DEVELOPMENT_TEAM = BU56QU36XP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "$(PRODUCT_NAME) uses camera";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

@@ -6,12 +6,24 @@
 //
 
 import SwiftUI
+import RoomPlan
+
 
 @main
 struct RoomPlanTestApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            checkDeciveView()
         }
+    }
+}
+    
+
+@ViewBuilder
+func checkDeciveView() -> some View {
+    if RoomCaptureSession.isSupported{
+        ContentView()
+    } else {
+        UnsupportedDeviceView()
     }
 }
